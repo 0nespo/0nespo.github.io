@@ -1,0 +1,216 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url('images/bee.jpg');
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    -webkit-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+  }
+  .top-wrapper:hover {
+    padding: 180px 0 100px 0;
+    background-image: url('images/nasa.jpg');
+    background-size: cover;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    -webkit-transition: 2s ease-in-out;
+    -o-transition: 2s ease-in-out;
+    -moz-transition: 2s ease-in-out;
+    -ms-transition: 2s ease-in-out;
+    transition: 2s ease-in-out;
+  }
+  
+  .top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+  }
+  
+  .btn-wrapper {
+    margin: 20px 0;
+  }
+  
+  .btn-wrapper p {
+    margin: 10px 0;
+  }
+  
+  .facebook {
+    background-color: #f6f7f8;
+    margin-right: 10px;
+  }
+  
+  .twitter {
+    background-color: #ffffff;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    color: rgb(42, 47, 117);
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+
+  .lesson-wrapper h1 {
+    font-size: 12px;
+    font-style : italic;
+    color: blue;
+  }
+  .fa {
+    margin-right: 5px;
+  }
+  
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(253, 253, 253, 0.9);
+    /* Ubah position ke fixed, dan top ke 0 */
+    position: fixed;            
+    top: 0;
+    
+    /* Ubah z-index ke 10 */
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 124px;
+    margin-top: 5 px;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+  }
+  
+  .header-right:hover {
+    background-color: rgba(255, 255, 255, 0.39);
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+  }
+  
+  .lesson-wrapper {
+    height: 200px;
+    padding-bottom: 80px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #050455;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .lesson {
+    float: left;
+    width: 25%;
+  }
+  
+  .lesson-icon {
+    position: relative;
+  }
+  
+  .lesson-icon p {
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    color: white;
+  }
+  
+  .txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #0f0f0f;
+  }
+  .heading h3 {
+    font-weight: normal;
+  }
+  
+  .message-wrapper {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 50px;
+    text-align: center;
+  } 
+.message-wrapper p{
+  font-size: 12px;
+    font-weight : bold;
+    font-style : italic;
+    color:red; 
+}
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  
+  footer img {
+    width: 100px;
+  }
+  
+  footer p {
+    font-size: 12px;
+    font-weight : bold;
+    font-style : italic;
+    color: #fffdfda1;
+    background-color:rgba(255, 255, 255, 0.39)
+  }
+  
+  footer {
+    padding-top: 20px;
+  }
+
+  .Bumi {
+    margin: 0px auto;
+    background-image: url(images/Bumi.gif);
+    background-position: 0% 0px, 0px 0px, 0px 0px;
+    background-repeat: no-repeat, repeat-x, repeat-x;
+    animation: animate-Bumi linear 50s infinite;
+    -moz-animation: animate-Bumi linear 50s infinite;
+    -ms-animation: animate-Bumi linear 50s infinite;
+    -o-animation: animate-Bumi linear 50s infinite;
+    -webkit-animation: animate-Bumi linear 50s infinite;
+  }
